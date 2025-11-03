@@ -102,7 +102,7 @@ $idade_calculada = $hoje->diff($data_nascimento)->y;
             <!-- REFERÊNCIAS -->
             <?php if (!empty($dados['referencias'])): ?>
             <section class="mb-4">
-                <h3 class="border-bottom pb-2 mb-3">📞 Referências Profissionais</h3>
+                <h3 class="border-bottom pb-2 mb-3"> Referências Profissionais</h3>
                 <?php foreach ($dados['referencias'] as $ref): ?>
                 <div class="mb-3">
                     <h5 class="mb-1"><?php echo $ref['nome']; ?></h5>
