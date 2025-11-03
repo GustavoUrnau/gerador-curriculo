@@ -13,7 +13,7 @@ session_start();
 <body>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">📄 Gerador de Currículo</span>
+            <span class="mx-auto navbar-brand mb-0 h1">📄 Gerador de Currículo</span>
         </div>
     </nav>
 
