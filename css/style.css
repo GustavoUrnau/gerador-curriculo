@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 2px solid #dee2e6 !important;
+    border-radius: 0.25rem;
+}
+
+legend {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #495057;
+    padding: 0 10px;
+    margin-left: -10px;
+}
+
+.formacao-item,
+.experiencia-item,
+.referencia-item {
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.formacao-item:hover,
+.experiencia-item:hover,
+.referencia-item:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-outline-primary {
+    margin-top: 10px;
+}
+
+.btn-outline-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sticky-top {
+    top: 20px;
+}
+
+.curriculo-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.curriculo-container h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.curriculo-container h3 {
+    color: #34495e;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.curriculo-container h5 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.badge {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+}
+
+@media print {
+    body {
+        background: white;
+    }
+    
+    .curriculo-container {
+        box-shadow: none;
+        padding: 0;
+    }
+    
+    .curriculo-container * {
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        margin-top: 20px;
+    }
+    
+    .curriculo-container h1 {
+        font-size: 1.8rem;
+    }
+}
